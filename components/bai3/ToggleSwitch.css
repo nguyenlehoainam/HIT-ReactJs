@@ -1,0 +1,51 @@
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-slider {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .toggle-switch.on {
+    background-color: lightskyblue;
+  }
+  
+  .toggle-switch.on .toggle-slider {
+    transform: translateX(60px);
+  }
+  
+  .toggle-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+    user-select: none;
+  }
+  
+  .toggle-switch.on .toggle-text {
+    color: white;
+    left: 10px; 
+  }
+  
+  .toggle-switch.off .toggle-text {
+    left: 60px;
+  }
