@@ -1,0 +1,32 @@
+{
+  "name": "lesson1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://nguyenlehoainam.github.io/HIT-Reactjs-/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.21.0",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.4",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "globals": "^13.15.0",
+    "vite": "^3.2.0"
+  }
+}
