@@ -1,0 +1,38 @@
+.App {
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .App.dark-mode {
+    background-color: #222;
+    color: #ffffff;
+    nav {
+      background-color: #333;
+      color: #ffffff;
+    }
+  
+    .section {
+      background-color: #333;
+      color: #ffffff;
+    }
+  
+    .footer {
+      background-color: #333;
+      color: #ffffff;
+    }
+  }
+  .App.dark-mode h1,
+.App.dark-mode h2,
+.App.dark-mode h3,
+.App.dark-mode h4,
+.App.dark-mode p,
+.App.dark-mode a,
+.App.dark-mode li {
+    color: #fff;
+}
+.App.dark-mode .feature-card {
+    background-color: #222; 
+    color: #fff;        
+    border-color: #333; 
+}
