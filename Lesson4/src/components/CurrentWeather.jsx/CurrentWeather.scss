@@ -1,0 +1,56 @@
+.current-weather {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.current-weather-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.city h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.date {
+  font-size: 1rem;
+  color: #666;
+}
+
+.temp-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.weather-icon {
+  font-size: 4rem;
+}
+
+.weather-icon svg {
+  width: 80px;
+  height: 80px;
+  color: #ff9800;
+}
+
+.current-temp h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.current-temp p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #666;
+}

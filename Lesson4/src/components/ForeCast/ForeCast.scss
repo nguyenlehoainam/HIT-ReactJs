@@ -1,0 +1,20 @@
+.forecast-section {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.daily-forecast {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .daily-forecast {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,57 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  color: #333;
+  background: linear-gradient(180deg, #89f7fe, #66a6ff);
+}
+.html {
+  padding: auto;
+  margin: 0;
+}
+
+.overlay {
+  content: "";
+  background: url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80")
+    no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.error-message,
+.loading {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  margin: 15px auto;
+  max-width: 500px;
+  padding: 6px;
+  text-align: center;
+  width: 80%;
+}
+
+.error-message {
+  background-color: rgba(255, 82, 82, 0.8);
+}
+
+.loading {
+  background-color: rgba(102, 166, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
