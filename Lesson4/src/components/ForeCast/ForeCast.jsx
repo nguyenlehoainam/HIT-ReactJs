@@ -1,5 +1,5 @@
 import React from "react";
-import "./Forecast.scss";
+import "../ForeCast/ForeCast.scss";
 import ForecastDay from "../ForceCastday/ForceCastday";
 
 const Forecast = ({ forecast, tempUnit }) => {
