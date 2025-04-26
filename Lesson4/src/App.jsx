@@ -5,7 +5,7 @@ import "./App.scss";
 import { getUnits } from "./components/WeatherUtils/WeatherUtils";
 import SearchBar from "./components/SearchBar/SearchBar";
 import CurrentWeather from "./components/CurrentWeather.jsx/CurrentWeather";
-import Forecast from "./components/foreCast/foreCast";
+import Forecast from "./components/ForeCast/ForeCast";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState({});
