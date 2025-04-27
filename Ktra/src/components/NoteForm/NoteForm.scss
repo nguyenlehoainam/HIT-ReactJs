@@ -1,0 +1,35 @@
+.NoteFormContainer {
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+.updateButton,
+.cancelButton {
+  background-color: #dc28a0; /* Green */
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 8px;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-5px);
+    border-color: #008080;
+  }
+}
+.TiltleInput {
+  width: 500px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 20px;
+}
+.ContentInput {
+  width: 500px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 40px;
+}
